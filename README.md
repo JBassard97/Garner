@@ -1,3 +1,3 @@
-# 8521 (Arpita Patel)
+# Garner (Arpita Patel)
 
 ## One User One Store Model
