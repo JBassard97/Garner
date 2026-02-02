@@ -1,4 +1,4 @@
-require("dotenv/lib/main.js").config();
+require("dotenv").config();
 const { chromium } = require("playwright");
 
 const doPepTest = require("./checklists/PEP_Test.js");
