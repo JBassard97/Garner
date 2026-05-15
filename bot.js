@@ -29,7 +29,7 @@ const password = process.env.PASSWORD;
 
   const browser = await chromium.launch({
     headless: true,
-    slowMo: 100,
+    slowMo: 1000,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();
